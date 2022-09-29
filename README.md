@@ -27,7 +27,7 @@ The block, when placed on any product page, automatically shows the currently di
 5. Don't worry about creating dummy content, including the product shown in the wireframes, as part of your module. You are good as long as the content type and the blocks are functional in the module checked in.
 6. If your submission requires any further deployment steps, apart from the ones already listed in #3 above, make sure to list such deployment/installation steps. (Don't do it with an email. Instead, update this README.md file with the instructions). 
 7. Don't worry about the homepage. You can build a basic listing of products on the homepage for some bonus points, but that's not really required for this exercise. 
-8. Make the module available, along with the sample content (Unicorn Iron on patch), on a publicly available url. You may use Acquia Cloud Free Tier hosting available at https://insight.acquia.com/free/register?cs=acf-expertdevs , to upload your demo site. 
+8. Make the module available, along with the sample content (Unicorn Iron on patch), on a publicly available url. You may use https://pantheon.io/ to upload your demo site. 
 9. Your final submission is expected to contain a) Updated code of the module in this repository b) A link to the demo site c) Admin (uid=1) credentials to the demo site 
 
 Wish you the very best!
