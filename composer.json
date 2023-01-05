@@ -1,0 +1,15 @@
+{
+    "name": "drupal/sph_test",
+    "description": "Module for jugaad patches QR Code.",
+    "type": "drupal-custom-module",
+    "license": "GPL-2.0+",
+    "require": {
+        "endroid/qr-code": "^4.7"
+    },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    }
+}

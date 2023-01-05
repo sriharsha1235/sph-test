@@ -1,0 +1,28 @@
+uuid: 92780a11-ce28-4372-b6c0-b88d3ec1e72e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - sph_test
+  theme:
+    - olivero
+id: productqrcodeblock
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: product_qrcode_block
+settings:
+  id: product_qrcode_block
+  label: 'Product qrcode block'
+  label_display: '0'
+  provider: sph_test
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      product: product

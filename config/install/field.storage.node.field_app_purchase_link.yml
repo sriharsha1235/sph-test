@@ -1,0 +1,19 @@
+uuid: f36ed4b4-2671-4b79-a121-748da4b3eeb5
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_app_purchase_link
+field_name: field_app_purchase_link
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

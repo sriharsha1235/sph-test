@@ -31,3 +31,11 @@ The block, when placed on any product page, automatically shows the currently di
 9. Your final submission is expected to contain a) Updated code of the module in this repository b) A link to the demo site c) Admin (uid=1) credentials to the demo site 
 
 Wish you the very best!
+
+
+This module requires 3rd party library please add the below line in root composer.json under the repositories section
+{
+    "type": "path",
+    "url": "web/modules/custom/*"
+}
+then run composer require drupal/sph_test:@dev

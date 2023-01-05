@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 47567366-21b6-4662-99cb-fc46ee01c18a
+name: 'Jugaad Patches'
+mail: local@me.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /products
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

@@ -1,0 +1,7 @@
+name: 'SPH Test'
+type: module
+description: 'Product Content type creation and QR Code Block'
+core_version_requirement: ^8.8.3 || ^9
+package: 'Custom'
+dependencies:
+  - image

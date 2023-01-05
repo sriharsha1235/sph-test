@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains spf_test.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function sph_test_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the spf_test module.
+    case 'help.page.spf_test':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function sph_test_theme() {
+  return [
+    'node__product__full' => [
+      'render element' => 'elements',
+      'base hook' => 'node',
+    ],
+  ];
+}
